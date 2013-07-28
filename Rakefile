@@ -27,7 +27,7 @@ namespace :deb do
   end
 
   desc "prepare"
-  task :prepare => "build" do 
+  task :prepare => "go:build" do 
     prepare_package
   end
 end

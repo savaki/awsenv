@@ -8,10 +8,10 @@ def create_package
     --force \
     --deb-user 0 \
     --deb-group 0 \
-    --url http://bitbucket.org/themtt/stack/hosts \
+    --url http://github.com/savaki/awsenv/hosts \
     --name hosts \
     --version #{VERSION} \
-    --vendor "The Marketing Tool Tool" \
+    --vendor "Matt Ho" \
     -s dir \
     -t deb \
     -C #{DIST} \
